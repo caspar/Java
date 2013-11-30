@@ -14,9 +14,7 @@ public class Rand{
 		trues++;
 
 	}
-	System.out.println(trues + "/" + trials);
-	//long result = ((trues/trials) * 100);
-	//System.out.println(result);
+	//System.out.println(trues + "/" + trials);
 	System.out.println(((trues * 100000) / (trials * 1000)) + "%");
 	
     }
@@ -29,8 +27,6 @@ public class Rand{
 	for (int i = 0; i <Randoms.length; i ++){
 	    Randoms[i] = R.nextInt(range);
 	}
-	//System.out.println(conds(Randoms));
-	//System.out.println(Arrays.toString(Randoms));
 	return (conds(Randoms));
     }
     
@@ -38,7 +34,6 @@ public class Rand{
 	
 	for (int i = 0; i < Randoms.length - 3; i++){
 	    if(Randoms[i] == Randoms[i+1] && Randoms[i] == Randoms[i + 2]){
-		//System.out.println(Randoms[i]);
 		return true;
 	    }
 	}
