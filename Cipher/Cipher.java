@@ -4,42 +4,42 @@ import java.util.*;
 public class Cipher{
     
     public ArrayList<String> wordList;
+    private String punctuation = " ,.:;!?";
 
     public static void main(String[] args){
 	
-	if (args.length == 2){
+	if (args.length >= 2){
 	    Cipher c = new Cipher(args[0], (Integer.parseInt(args[1])));
 	}
-	if (args.length == 1){
-	    if (args[0].length() > 1){
-		System.out.println("No int given");
+	else {
+	    if (args.length == 1){
+	    Cipher c = new Cipher(args[0]);
 	    }
 	    else{
-		System.out.println("No String given");
+		System.out.println("No parameters given");
 	    }
-	}
-	if (args.length == 0){
-	    System.out.println ("No parameters given");
 	}
     }
     
     public Cipher(String input, int num){
        	input = Decapitalize(input);
-	String firstWord = getFirstWord(input);
-	String output = "";
-	readWords("words.txt");
+	//String firstWord = getFirstWord(input);
 	System.out.println(Encrypt(input, num));
-	System.out.println(Decrypt(input));
     }   
+    
+    public Cipher(String input){
+	readWords("words.txt");
+	System.out.println(Decrypt(input));
+    }
 
     private String getFirstWord(String input){
 	String firstWord = "";
 	
 	if (input.contains(" ")){
-	    for (int i = 0; input.charAt(i) != ' '; i++){
+	    for (int i = 0; !punctuation.contains(String.valueOf((input.charAt(i)))); i++){
 		firstWord += input.charAt(i);
 		}
-	}.
+	}
 	else{
 	    for (int i = 0; i < input.length(); i ++){
 		firstWord += input.charAt(i);
@@ -95,7 +95,6 @@ public class Cipher{
     
     public String Decrypt(String input){
 	String firstWord = getFirstWord(input);
-	System.out.println(firstWord);
 	String output = "";
 
 	for (int a = 0; a < 26; a++){
