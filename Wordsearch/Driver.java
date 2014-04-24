@@ -20,9 +20,21 @@ public class Driver {
 	    height = Integer.parseInt(args[0]);
 	    width = Integer.parseInt(args[1]);
 	}
+
+	///////////////
+	// FILE NAME //
+	///////////////
+
+	String file = "Instruments.txt";
+	
+	if (args.length == 1) 
+	    file = args[0];
+	if (args.length >= 3)
+	    file = args[2];
+	  	    
        	//////////////////////////
 	
-	WordSearch w = new WordSearch(height,width);
+	WordSearch w = new WordSearch(height,width, file);
 	Random R = new Random();
 	
 	//Clear the screen:

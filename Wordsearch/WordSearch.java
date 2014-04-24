@@ -31,7 +31,7 @@ public class WordSearch {
 	}
     }
     
-    public WordSearch(int r, int c) {
+    public WordSearch(int r, int c, String filename) {
 	//CONSTRUCT THE BOARD//
 	// *Border with |'s and -'s	
 	rows = r;
@@ -48,11 +48,7 @@ public class WordSearch {
        	for (int i=1;i<r-1;i++) 
 	    for (int j=1;j<c-1;j++) 
 		board[i][j]=' ';
-	readWords("Instruments.txt");
-    }
-    
-    public WordSearch() {
-	this(30,120);
+	readWords(filename);
     }
     
     public String ReadList(){
