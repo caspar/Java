@@ -1,9 +1,12 @@
+
 language: java
 jdk:
   - oraclejdk7
-  - openjdk7
-  - openjdk6
+env:
+  matrix:
 
+script: mvn install
 
-
-
+notifications:
+  email:
+    recipients: casparlant@gmail.com

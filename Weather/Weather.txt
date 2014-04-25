@@ -1,0 +1,241 @@
+Latitude: 40.701736
+Longitude: -73.983938
+Timezone: America/New_York
+
+Daily:
+
+Day #1
+temperatureMinTime: 10:00:00
+sunsetTime: 23:45:17
+summary: "Breezy in the afternoon."
+visibility: 10
+precipIntensity: 0
+precipIntensityMax: 0
+ozone: 371.93
+time: 24-04-2014 04:00:00
+apparentTemperatureMaxTime: 20:00:00
+icon: "wind"
+temperatureMaxTime: 20:00:00
+pressure: 1013.16
+cloudCover: 0.15
+apparentTemperatureMinTime: 10:00:00
+temperatureMin: 42.2
+dewPoint: 24.59
+sunriseTime: 10:05:04
+windSpeed: 11.34
+humidity: 0.38
+moonPhase: 0.84
+apparentTemperatureMax: 60.01
+windBearing: 304
+precipProbability: 0
+apparentTemperatureMin: 36.84
+temperatureMax: 60.01
+
+
+Day #2
+sunsetTime: 23:46:21
+summary: "Breezy overnight, with rain in the evening."
+temperatureMinTime: 09:00:00
+precipIntensityMaxTime: 03:00:00
+visibility: 10
+precipIntensity: 0.002
+precipIntensityMax: 0.0257
+ozone: 331.83
+time: 25-04-2014 04:00:00
+apparentTemperatureMaxTime: 18:00:00
+icon: "rain"
+temperatureMaxTime: 18:00:00
+pressure: 1015.06
+cloudCover: 0.48
+apparentTemperatureMinTime: 09:00:00
+temperatureMin: 41.68
+precipType: "rain"
+dewPoint: 30.56
+sunriseTime: 10:03:41
+windSpeed: 3.54
+humidity: 0.47
+moonPhase: 0.88
+apparentTemperatureMax: 58.06
+windBearing: 121
+precipProbability: 0.56
+apparentTemperatureMin: 38.04
+temperatureMax: 58.06
+
+
+Day #3
+sunsetTime: 23:47:24
+summary: "Breezy overnight, with rain throughout the day."
+temperatureMinTime: 05:00:00
+precipIntensityMaxTime: 09:00:00
+visibility: 9.32
+precipIntensity: 0.0269
+precipIntensityMax: 0.09
+ozone: 377.65
+time: 26-04-2014 04:00:00
+apparentTemperatureMaxTime: 19:00:00
+icon: "rain"
+temperatureMaxTime: 19:00:00
+pressure: 1006.91
+cloudCover: 0.5
+apparentTemperatureMinTime: 05:00:00
+temperatureMin: 48.95
+precipType: "rain"
+dewPoint: 46.48
+sunriseTime: 10:02:19
+windSpeed: 5.21
+humidity: 0.74
+moonPhase: 0.91
+apparentTemperatureMax: 64.44
+windBearing: 262
+precipProbability: 0.98
+apparentTemperatureMin: 43.3
+temperatureMax: 64.44
+
+
+Day #4
+sunsetTime: 23:48:28
+summary: "Partly cloudy starting in the afternoon, continuing until evening."
+temperatureMinTime: 09:00:00
+precipIntensityMaxTime: 06:00:00
+visibility: 10
+precipIntensity: 0.0001
+precipIntensityMax: 0.0006
+ozone: 380.13
+time: 27-04-2014 04:00:00
+apparentTemperatureMaxTime: 20:00:00
+icon: "partly-cloudy-day"
+temperatureMaxTime: 20:00:00
+pressure: 1014.85
+cloudCover: 0.06
+apparentTemperatureMinTime: 10:00:00
+temperatureMin: 43.53
+precipType: "rain"
+dewPoint: 38.83
+sunriseTime: 10:00:58
+windSpeed: 11.71
+humidity: 0.65
+moonPhase: 0.95
+apparentTemperatureMax: 57.37
+windBearing: 308
+precipProbability: 0.02
+apparentTemperatureMin: 37.41
+temperatureMax: 57.37
+
+
+Day #5
+sunsetTime: 23:49:31
+summary: "Mostly cloudy starting in the afternoon."
+temperatureMinTime: 09:00:00
+precipIntensityMaxTime: 18:00:00
+visibility: 10
+precipIntensity: 0.0001
+precipIntensityMax: 0.0002
+ozone: 353.99
+time: 28-04-2014 04:00:00
+apparentTemperatureMaxTime: 19:00:00
+icon: "partly-cloudy-day"
+temperatureMaxTime: 19:00:00
+pressure: 1019.54
+cloudCover: 0.33
+apparentTemperatureMinTime: 09:00:00
+temperatureMin: 43.71
+precipType: "rain"
+dewPoint: 41.51
+sunriseTime: 09:59:38
+windSpeed: 4.41
+humidity: 0.69
+moonPhase: 0.98
+apparentTemperatureMax: 59.85
+windBearing: 319
+precipProbability: 0.01
+apparentTemperatureMin: 38.48
+temperatureMax: 59.85
+
+
+Day #6
+sunsetTime: 23:50:35
+summary: "Light rain throughout the day."
+temperatureMinTime: 03:00:00
+precipIntensityMaxTime: 21:00:00
+precipIntensity: 0.0123
+precipIntensityMax: 0.0306
+ozone: 336.71
+time: 29-04-2014 04:00:00
+apparentTemperatureMaxTime: 18:00:00
+icon: "rain"
+temperatureMaxTime: 18:00:00
+pressure: 1021.05
+cloudCover: 0.99
+apparentTemperatureMinTime: 03:00:00
+temperatureMin: 48.03
+precipType: "rain"
+dewPoint: 45.45
+sunriseTime: 09:58:19
+windSpeed: 5.15
+humidity: 0.82
+moonPhase: 0.02
+apparentTemperatureMax: 54.86
+windBearing: 96
+precipProbability: 0.9
+apparentTemperatureMin: 43.95
+temperatureMax: 54.86
+
+
+Day #7
+sunsetTime: 23:51:38
+summary: "Breezy in the evening, with rain throughout the day."
+temperatureMinTime: 07:00:00
+precipIntensityMaxTime: 03:00:00
+precipIntensity: 0.0284
+precipIntensityMax: 0.0892
+ozone: 317.04
+time: 30-04-2014 04:00:00
+apparentTemperatureMaxTime: 19:00:00
+icon: "rain"
+temperatureMaxTime: 19:00:00
+pressure: 1019.48
+cloudCover: 1
+apparentTemperatureMinTime: 12:00:00
+temperatureMin: 46.43
+precipType: "rain"
+dewPoint: 45.1
+sunriseTime: 09:57:02
+windSpeed: 14.47
+humidity: 0.86
+moonPhase: 0.05
+apparentTemperatureMax: 52.8
+windBearing: 89
+precipProbability: 1
+apparentTemperatureMin: 39.79
+temperatureMax: 52.8
+
+
+Day #8
+sunsetTime: 23:52:41
+summary: "Light rain throughout the day."
+temperatureMinTime: 08:00:00
+precipIntensityMaxTime: 04:00:00
+precipIntensity: 0.0222
+precipIntensityMax: 0.0832
+ozone: 334.26
+time: 01-05-2014 04:00:00
+apparentTemperatureMaxTime: 19:00:00
+icon: "rain"
+temperatureMaxTime: 19:00:00
+pressure: 1012.45
+cloudCover: 0.62
+apparentTemperatureMinTime: 07:00:00
+temperatureMin: 46.17
+precipType: "rain"
+dewPoint: 47.07
+sunriseTime: 09:55:45
+windSpeed: 8.69
+humidity: 0.89
+moonPhase: 0.08
+apparentTemperatureMax: 56
+windBearing: 67
+precipProbability: 1
+apparentTemperatureMin: 40.54
+temperatureMax: 56
+
+

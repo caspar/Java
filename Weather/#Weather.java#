@@ -1,0 +1,15 @@
+
+import java.net.*;
+import java.io.*;
+
+public class Weather {
+    public static void main(String[] args) throws Exception {
+
+        URL freeWeather = new URL("http://freeweather.com/cgi-bin/weather/weather.cgi?daysonly=1&maxdays=14&pands=11");
+        BufferedReader in = new BufferedReader(new InputStreamReader(freeWeather.openStream()));
+        String inputLine;
+        while ((inputLine = in.readLine()) != null)
+            System.out.println(inputLine);
+        in.close();
+    }
+}
