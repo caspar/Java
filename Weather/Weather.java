@@ -9,9 +9,7 @@ public class Weather {
 	////////////////////////////////////////
 
 	ForecastIO fio = new ForecastIO("561be979a0c6974551b2582588c959a9"); //instantiate the class with the API key. 	
-	FIOCurrently currently = new FIOCurrently(fio);
-	FIODaily daily = new FIODaily(fio);
-      
+
 	Calendar c = Calendar.getInstance();
 	final String[] days = {"Sunday...", "Monday...", "Tuesday..", "Wednesday", "Thursday.", "Friday...", "Saturday."}; //Days of the week for the readout
         final int today = (c.get(c.DAY_OF_WEEK))-1;
@@ -24,7 +22,7 @@ public class Weather {
 	// ARG HANDLING //
 	//////////////////
 
-	try{ if (args[0].toLowerCase().contains("s")||args[1].toLowerCase().contains("s"))summary = true;} //I will use this block to handle all my args!
+	try{ if (args[0].toLowerCase().contains("s")||args[1].toLowerCase().contains("s")) summary = true;} //I will use this block to handle all my args!
 	catch(Exception oops){/* Write message in here */}
 
 	try{ if ( isNum(args[0]) && isNum(args[1]) ){ //first two args are coordinates
@@ -41,18 +39,20 @@ public class Weather {
 	}
 	catch(Exception oops){/* Write message in here */}
 
-	fio.setExcludeURL("hourly,minutely");
 	fio.getForecast(lat, lon); 		
+	fio.setExcludeURL("hourly,minutely");
+	FIOCurrently currently = new FIOCurrently(fio);
+	FIODaily daily = new FIODaily(fio);
+      
 
 	System.out.println("Timezone: "+fio.getTimezone()); //for verification of coordinate location service. Later: Entering city as parameter
 
 	String result = "";
 	
-	// result += currently.get().temperature(); 
-	// result += " | ";
-	// result += currently.get().temperatureMin();
-	// System.out.println(result);
+	result += "Current: " + currently.get().temperature() + "º"; 
+        System.out.println(result);
 
+	result = "";
 
 	for(int i = 1; i < 8; i ++){
 	    result += "\n" + days[(today-1+i)%7] + "..";
@@ -92,10 +92,10 @@ public class Weather {
 	
     private static String formatTemps(FIODaily fid, int i){
 	String out = "(";
-	out+=fid.getDay(i).temperatureMax();
+	out+=fid.getDay(i).temperatureMax(); //+"º" ?
 	if (out.length()==5)out+=" ";
 	out+=" | ";
-	out+=fid.getDay(i).temperatureMin();
+	out+=fid.getDay(i).temperatureMin(); //+"º" ?
 	if (out.length()==13)out+=" ";
 	return out + ")";
     }
